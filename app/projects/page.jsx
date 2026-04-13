@@ -37,7 +37,7 @@ export default function page(){
         className="relative grid grid-cols-2 gap-16 justify-items-center mt-20 px-20"
       ></motion.div>
         <div className="relative grid grid-cols-2 gap-16 justify-items-center mt-20 px-20">
-          <div className="max-w-[430px] rounded-3xl bg-pink-200 shadow-md p-6 transition duration-300 hover:scale-[1.03] hover:shadow-xl cursor-pointer">
+          <div className="max-w-[400px] rounded-3xl bg-pink-200 shadow-md p-6 transition duration-300 hover:scale-[1.03] hover:shadow-xl cursor-pointer">
   
         
             <div className="flex items-start justify-between">
