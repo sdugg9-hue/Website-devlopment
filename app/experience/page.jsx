@@ -31,7 +31,7 @@ export default function page(){
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
         viewport={{ once: true }}
-        className={`relative text-3xl font-extrabold text-red-700 tracking-wide mt-17 ml-12 ${barr.className}`}
+        className={`relative text-4xl font-extrabold text-red-700 tracking-wide mt-17 ml-12 ${barr.className}`}
       >
         std::Experience::std
       </motion.h1>
@@ -43,7 +43,7 @@ export default function page(){
         className={`flex flex-col gap-8 mt-16 px-20 ${arm.className}`}
       >
        
-                <div className="p-8 rounded-xl shadow-md bg-red-600 ">
+                <div className="p-8 rounded-xl shadow-md bg-pink-200 ">
             <h2 className="text-3xl font-bold mb-2">Students Activity Board</h2>
             <p className="text-2xl font-semibold mb-2">
               Member · Sep 2025 - Present
@@ -58,7 +58,7 @@ export default function page(){
             </p>
           </div>
            
-          <div className="p-8 rounded-xl shadow-md bg-red-700">
+          <div className="p-8 rounded-xl shadow-md bg-pink-200">
           <h2 className="text-3xl font-bold mb-2">Co-Chair, Management Committee</h2>
             <p className="text-2xl font-semibold mb-2">
               Entrepreneurs Fest · Aug 2023
@@ -75,7 +75,7 @@ export default function page(){
             </p>
         </div>
 
-         <div className="p-8 rounded-xl shadow-md bg-red-800">
+         <div className="p-8 rounded-xl shadow-md bg-pink-200">
           <h2 className="text-3xl font-bold mb-2">Executive Manager</h2>
             <p className="text-2xl font-semibold mb-2">
               Foodies Spotlight, Entrepreneurs Fest · Nov 2022

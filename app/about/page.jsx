@@ -107,6 +107,30 @@ export default function page() {
     </motion.div>
   </div>
 </motion.section>
+<motion.section
+  initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true, amount: 0.2 }}
+  className="min-h-[30vh] flex flex-col items-center justify-center px-10 mt-10"
+>
+  <h2 className={`text-3xl text-red-700 font-extrabold mb-6 ${barr.className}`}>
+    Tools & Technologies
+  </h2>
+
+  <div className="flex flex-wrap justify-center gap-6 max-w-3xl">
+    
+    {["Python", "C++", "Figma", "JavaScript", "React", "Next.js", "HTML", "CSS", "Tailwind", "Git", "VS Code"].map((tool, index) => (
+      <div
+        key={index}
+        className="px-6 py-2 rounded-full border border-red-700 text-red-700 font-semibold hover:bg-red-700 hover:text-white transition"
+      >
+        {tool}
+      </div>
+    ))}
+
+  </div>
+</motion.section>
 </div>
 
         

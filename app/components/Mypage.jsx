@@ -38,21 +38,25 @@ export default function Mypage() {
           front-end development, healthcare technology & software engineering.
         </p>
 
-        <h2 className="mt-6 text-xl tracking-wide">
-          Student at University OF Illinois At Chicago
+        <h2 className="mt-6 text-2xl tracking-wide">
+          CS Major at the University of Illinois at Chicago
+                      expected graduation: 2029
+        </h2>
+        <h2 className="mt-6 text-2xl tracking-wide">
+                    expected graduation: 2029
         </h2>
 
       </div>
          <div className="mt-12 flex justify-center gap-10">
 
-  <Link
+  {/* <Link
     href="#about"
     className="px-8 py-3 border border-red-800 rounded-full text-red-800 font-semibold hover:bg-red-900 hover:text-white transition"
   >
     ABOUT
-  </Link>
+  </Link> */}
 
-  <Link
+  {/* <Link
     href="#projects"
     className="px-8 py-3 border border-red-800 rounded-full text-red-800 font-semibold hover:bg-red-900 hover:text-white transition"
   >
@@ -64,12 +68,12 @@ export default function Mypage() {
     className="px-8 py-3 border border-red-800 rounded-full text-red-800 font-semibold hover:bg-red-900 hover:text-white transition"
   >
     Experience
-  </Link>
+  </Link> */}
 
 </div>
-<div className="space-y-6 pt-30">
+<div className="space-y-5 pt-30">
           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" 
-          className="-mt-14 px-8 py-3 flex justify-center border border-red-800 rounded-full text-red-800 font-semibold hover:bg-red-900 hover:text-white transition">
+          className="-mt-14 px-10 py-5 flex justify-center border border-red-800 rounded-full text-red-800 font-semibold hover:bg-red-900 hover:text-white transition">
           Resume
         </a>
         </div>
