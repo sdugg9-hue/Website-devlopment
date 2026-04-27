@@ -2,6 +2,7 @@ import Mypage from "./components/Mypage";
 import About from "./about/page";
 import Projects from "./projects/page";
 import Experience from "./experience/page";
+import ContactPage from "./contact/page";
 
 export default function Home() {
   return (
@@ -20,6 +21,10 @@ export default function Home() {
 
       <section id="experience">
         <Experience />
+      </section>
+
+      <section id="contact">
+        <ContactPage />
       </section>
     </main>
   );
