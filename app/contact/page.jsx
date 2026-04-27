@@ -30,13 +30,13 @@ export default function ContactPage() {
               Print("CONTACT");
             </h2>
 
-            <p className="text-L text-gray-600">
+            <p className="text-xL text-black-600">
             Let's connect! Feel free to reach out.
             </p>
 
             <div className="mt-6 space-y-3">
               <p className="text-red-800 font-L">
-                sdugg9@uic.edu
+                 Email: sdugg9@uic.edu
               </p>
 
               <div className="flex gap-4 text-red-700">

@@ -45,7 +45,7 @@ export default function RootLayout({
   </h1>
           <div className="flex gap-8 px-6 py-2 border border-red-800 rounded-full text-red-800">
             <Link href="/about" className="hover:text-red-800 transition">
-              about
+              About
             </Link>
 
             <Link href="/projects" className="hover:text-red-800 transition">
