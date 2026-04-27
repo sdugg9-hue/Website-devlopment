@@ -49,14 +49,14 @@ export default function RootLayout({
             </Link>
 
             <Link href="/projects" className="hover:text-red-800 transition">
-              rojects
+              Projects
             </Link>
 
             <Link href="/experience" className="hover:text-red-800 transition">
               Experience
             </Link>
 
-            <Link href="/ContactPage" className="hover:text-red-800 transition">
+            <Link href="/contact" className="hover:text-red-800 transition">
               Contact
             </Link>
 
